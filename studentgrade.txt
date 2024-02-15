@@ -4,18 +4,18 @@ public class StudentGrade {
 	private static Scanner sc;
 	public static void main(String[] args) 
 	{
-		int english, chemistry, computers, physics, maths; 
+		int biology, chemistry, computers, physics, maths; 
 	    float total, Percentage;
 		sc = new Scanner(System.in);
 		
-		System.out.print(" Please Enter the Five Subjects Marks : ");
-		english = sc.nextInt();	
+		System.out.print(" Please Enter the  Subjects Marks : ");
+		biology = sc.nextInt();	
 		chemistry = sc.nextInt();	
 		computers = sc.nextInt();	
 		physics = sc.nextInt();	
 		maths = sc.nextInt();	
 		
-		total = english + chemistry + computers + physics + maths;
+		total = biology + chemistry + computers + physics + maths;
 	    Percentage = (total / 500) * 100;
 	 
 	    System.out.println(" Total Marks =  " + total);
