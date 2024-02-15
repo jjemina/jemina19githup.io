@@ -5,7 +5,7 @@ public class GuessingGame {
         public static void main(String[] args) 
        {
            System.out.println("Let's play a game.  I'll pick a number between");
-           System.out.println("1 and 100, and you try to guess it.");
+           System.out.println("1 to 100, and you try to guess it.");
            Scanner sc1 = new Scanner(System.in); 
            boolean playAgain;
            do {
@@ -39,9 +39,9 @@ public class GuessingGame {
                   break;  
                }
                if (usersGuess < computersNumber)
-                  System.out.println("That's too low.  Try again:");
+                  System.out.println("That's too low.  Try again please:");
                else if (usersGuess > computersNumber)
-                  System.out.println("That's too high.  Try again:");
+                  System.out.println("That's too high.  Try again please:");
             }
             System.out.println();
         } 
